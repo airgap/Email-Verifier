@@ -2,16 +2,20 @@
 Validates emails, including cross-checking TLD with ICANN
 
 To use, simply add this in your header:
-
-    <script src="emailverifier.js"></script>
-
+````JS
+<script src="emailverifier.js"></script>
+````
 To validate an email using JavaScript, use:
 
-    if (validateEmail(yourtextbox.value)) //Valid Email
+````JS
+if (validateEmail(yourtextbox.value)) //Valid Email
+````
 
-A simple demo that alerts the user whether the email is Valid or Invalid:
+A simple demo that alerts the user whether the email is ````Valid```` or ````Invalid````:
 
-    alert((validateEmail(yourtextbox.value)?"V":"Inv")+"alid");
+````JS
+alert((validateEmail(yourtextbox.value)?"V":"Inv")+"alid");
+````
 
 
 <table>
@@ -24,8 +28,8 @@ A simple demo that alerts the user whether the email is Valid or Invalid:
 
 <table>
 <tr><td colspan=2><b>Some example invalid email addresses:</b></td></tr>
-    <tr><td>extra-dot@typo..com</td><td>Extra .</td></tr>
+    <tr><td>extra-dot@typo..com</td><td>Touching ..</td></tr>
     <tr><td>wrong@tld.yippy</td><td>Invalid TLD</td></tr>
-    <tr><td>starwars-at-at@@rocks.co</td><td>Extra @</td></tr>
+    <tr><td>starwars-at-at@@rocks.co</td><td>Touching @@</td></tr>
     <tr><td>fail.@fail.fail</td><td>Touching .@</td></tr>
 </table>
