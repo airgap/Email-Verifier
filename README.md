@@ -1,5 +1,5 @@
 # Email-Verifier
-Validates emails, including cross-checking TLD with ICANN
+Validates email addresses by checking for formatting errors and cross-checking the TLD with ICANN
 
 To use, simply add this in your header:
 ````JS
