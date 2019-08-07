@@ -14,7 +14,7 @@ if (validateEmail(yourtextbox.value)) //Valid Email
 A simple demo that alerts the user whether the email is ````Valid```` or ````Invalid````:
 
 ````JS
-alert((validateEmail(yourtextbox.value)?"V":"Inv")+"alid");
+alert(validateEmail(yourtextbox.value)?"Valid":"Invalid");
 ````
 
 
